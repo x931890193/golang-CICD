@@ -1,0 +1,42 @@
+local:
+  server:
+    host: 0.0.0.0
+    port: 8033
+
+  model:
+    host: 39.98.127.31
+    port: 8002
+
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: flzx3qc
+    db: test
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    db: 1
+prod:
+  server:
+    host: 0.0.0.0
+    port: 8033
+
+  model:
+    host: 39.98.127.31
+    port: 8002
+
+  mysql:
+    host: 127.0.0.1
+    port:
+    user:
+    password:
+    db:
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    db: 1
