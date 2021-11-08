@@ -3,12 +3,14 @@ name: Go dev
 on:
   pull_request:
     branches:
-      - main
+      - master
       - staging
+      - dev
   push:
     branches:
-      - main
+      - master
       - staging
+      - dev
 
 jobs:
 
