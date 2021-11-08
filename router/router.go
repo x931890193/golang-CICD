@@ -28,5 +28,6 @@ func SetupServer() *gin.Engine {
 	{
 		train.GET("/test", handler.TestHandler)
 	}
+
 	return router
 }
